@@ -1,0 +1,15 @@
+# Airflow Runtime Data (Exclude from Git)
+logs/
+db/
+config/
+airflow.db
+
+# Environment Files
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# IDE Configuration
+.idea/
+.vscode/
