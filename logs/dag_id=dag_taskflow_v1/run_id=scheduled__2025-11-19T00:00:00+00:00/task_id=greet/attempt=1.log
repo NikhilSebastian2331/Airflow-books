@@ -1,0 +1,13 @@
+{"timestamp":"2025-11-19T16:28:17.797408Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-19T16:28:17.798430Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_taskflow_pyoperator.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-19T16:28:17.827080Z","level":"warning","event":"The `airflow.decorators.dag` attribute is deprecated. Please use `'airflow.sdk.dag'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/dag_taskflow_pyoperator.py","lineno":3,"logger":"py.warnings"}
+{"timestamp":"2025-11-19T16:28:17.827359Z","level":"warning","event":"The `airflow.decorators.task` attribute is deprecated. Please use `'airflow.sdk.task'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/dag_taskflow_pyoperator.py","lineno":3,"logger":"py.warnings"}
+{"timestamp":"2025-11-19T16:28:17.925594Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-11-19T16:28:17.925806Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-11-19T16:28:17.926079Z","level":"info","event":"Current task name:greet","logger":"task.stdout"}
+{"timestamp":"2025-11-19T16:28:17.926195Z","level":"info","event":"Dag name:dag_taskflow_v1","logger":"task.stdout"}
+{"timestamp":"2025-11-19T16:28:17.928073Z","level":"info","event":"Hello world!! Name is Tom Fridman, and age is 21","logger":"task.stdout"}
+{"timestamp":"2025-11-19T16:28:17.930160Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":215}
+{"timestamp":"2025-11-19T16:28:17.975618Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-11-19T16:28:17.975798Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-11-19T16:28:17.976110Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): greet>","logger":"task.stdout"}

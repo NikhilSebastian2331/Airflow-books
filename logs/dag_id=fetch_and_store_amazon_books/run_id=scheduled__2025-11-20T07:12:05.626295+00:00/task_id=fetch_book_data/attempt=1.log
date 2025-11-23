@@ -1,0 +1,9 @@
+{"timestamp":"2025-11-20T07:12:36.603128Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-20T07:12:36.607722Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/books.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-20T07:12:37.230307Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/books.py","lineno":6,"logger":"py.warnings"}
+{"timestamp":"2025-11-20T07:12:37.293783Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-11-20T07:12:37.294079Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-11-20T07:12:37.294295Z","level":"info","event":"Current task name:fetch_book_data","logger":"task.stdout"}
+{"timestamp":"2025-11-20T07:12:37.294396Z","level":"info","event":"Dag name:fetch_and_store_amazon_books","logger":"task.stdout"}
+{"timestamp":"2025-11-20T07:32:17.004060Z","level":"error","event":"Server indicated the task shouldn't be running anymore. Terminating process","detail":{"detail":{"reason":"not_found","message":"Task Instance not found"}},"logger":"task"}
+{"timestamp":"2025-11-20T07:32:22.104465Z","level":"error","event":"Task killed!","logger":"task"}
