@@ -6,6 +6,7 @@ airflow.db
 
 # Environment Files
 venv/
+.venv_airflow_hint
 .venv/
 __pycache__/
 *.pyc
